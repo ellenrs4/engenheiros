@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Engenheiros do Amanhã – Robótica & Programação Gamificada</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Nav -->
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <div class="brand">Engenheiros do Amanhã</div>
+            <nav class="nav">
+                <a href="#home">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#alunos">Alunos</a>
+                <a href="#professores">Professores</a>
+                <a href="#pais">Pais</a>
+                <a href="#modulos">Módulos</a>
+                <a href="#blog">Blog</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <button id="openLogin" class="btn btn-sm btn-light">Entrar / Cadastrar</button>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">☰</button>
+        </div>
+    </header>
+
+    <!-- Incio -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h1>Aprenda <span>Robótica & Programação</span> de forma divertida e profissional</h1>
+                <p>Plataforma gamificada e interativa para <b>alunos, professores e responsáveis</b> acompanharem a
+                    evolução em tempo real, com desafios, medalhas e relatórios.</p>
+
+                <div class="hero-actions">
+                    <button class="btn btn-primary" id="ctaComecar">Começar Agora</button>
+                    <a href="#sobre" class="btn btn-ghost">Saiba Mais</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <h3>+100</h3>
+                        <p>Alunos ativos</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>+100</h3>
+                        <p>Professores</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>99%</h3>
+                        <p>Satisfação</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="orb "></div>
+                <img class="logo" src="logo1.png" alt="Logo Engenheiros" />
+            </div>
+        </div>
+        <div class="floating-cta">
+            <button class="btn btn-accent" id="floatingCta">Crie sua conta grátis</button>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+        <div class="container grid-2">
+            <div>
+                <h2>Sobre o sistema</h2>
+                <p>O <b>Engenheiros do Amanhã</b> conecta conteúdos de programação (Scratch, Python, C++) com robótica prática
+                    (Arduino, Lego, micro:bit). Tudo com metodologia gamificada, relatórios inteligentes e
+                    acompanhamento para famílias.</p>
+                <ul class="ticks">
+                    <li>Trilhas guiadas com desafios semanais</li>
+                    <li>Relatórios por aluno e por turma</li>
+                    <li>Integração com simuladores online</li>
+                </ul>
+            </div>
+            <div class="card highlight">
+                <h3>Por que escolher?</h3>
+                <p>Construído com educadores e engenheiros, focado em engajamento e resultados.</p>
+                <div class="pill-row">
+                    <span class="pill">Gamificação</span>
+                    <span class="pill">Relatórios</span>
+                    <span class="pill">Projetos STEAM</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARA ALUNOS -->
+    <section id="alunos" class="section alt">
+        <div class="container">
+            <h2>Para Alunos</h2>
+            <p class="section-sub">Aprendizado gamificado com medalhas, pontos, missões e ranking.</p>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <h4>Desafios & Quizzes</h4>
+                    <p>Missões com feedback automático e certificações digitais.</p>
+                </div>
+                <div class="card">
+                    <h4>Comunidade</h4>
+                    <p>Fórum e chat moderados para dúvidas e projetos colaborativos.</p>
+                </div>
+                <div class="card">
+                    <h4>Biblioteca</h4>
+                    <p>Vídeos, PDFs e tutoriais práticos para avançar no ritmo do aluno.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARA PROFESSORES -->
+    <section id="professores" class="section">
+        <div class="container">
+            <h2>Para Professores</h2>
+            <p class="section-sub">Painel de turmas, relatórios, planos de aula e criação de desafios.</p>
+
+            <div class="feature-grid">
+                <div class="feature">
+                    <span class="feat-ico">📊</span>
+                    <div>
+                        <h4>Relatórios Inteligentes</h4>
+                        <p>Desempenho por aluno, por turma e por módulo de ensino.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <span class="feat-ico">🧩</span>
+                    <div>
+                        <h4>Planos de Aula</h4>
+                        <p>Crie, edite e compartilhe trilhas e atividades por nível.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <span class="feat-ico">⚙️</span>
+                    <div>
+                        <h4>Integrações</h4>
+                        <p>Links para simuladores (Scratch, Tinkercad, Arduino) e Classroom/Teams.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARA PAIS -->
+    <section id="pais" class="section alt">
+        <div class="container grid-2">
+            <div>
+                <h2>Para Responsáveis</h2>
+                <p>Acompanhe o progresso, conquistas e participação em eventos. Receba notificações e mensagens da
+                    escola.</p>
+                <ul class="ticks">
+                    <li>Agenda de workshops e torneios</li>
+                    <li>Alertas de medalhas e certificados</li>
+                    <li>Relatório semanal por e-mail</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h4>Transparência e segurança</h4>
+                <p>Contas separadas, permissões claras e histórico de atividades.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MÓDULOS -->
+    <section id="modulos" class="section">
+        <div class="container">
+            <h2>Módulos de Ensino</h2>
+            <div class="modules">
+                <div class="module">
+                    <h5>Programação Básica</h5>
+                    <p>Scratch e Blockly</p>
+                </div>
+                <div class="module">
+                    <h5>Programação Avançada</h5>
+                    <p>Python e C++</p>
+                </div>
+                <div class="module">
+                    <h5>Robótica Prática</h5>
+                    <p>Arduino, Lego e micro:bit</p>
+                </div>
+                <div class="module">
+                    <h5>Projetos STEAM</h5>
+                    <p>Ciências, Matemática e Engenharia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DEPOIMENTOS -->
+    <section class="section alt">
+        <div class="container">
+            <h2>Histórias de Sucesso</h2>
+            <div class="testimonials">
+                <blockquote>
+                    “Meu filho ganhou interesse por programação em poucas semanas!”
+                    <cite>— Ana R., responsável</cite>
+                </blockquote>
+                <blockquote>
+                    “Os relatórios por turma me pouparam horas de trabalho.”
+                    <cite>— Carlos M., professor</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog" class="section">
+        <div class="container">
+            <h2>Blog / Conteúdo</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h4>Robótica nas Escolas</h4>
+                    <p>Como introduzir kits de baixo custo e alto engajamento.</p>
+                </div>
+                <div class="card">
+                    <h4>Do Scratch ao Python</h4>
+                    <p>Transição suave para lógica e código real.</p>
+                </div>
+                <div class="card">
+                    <h4>Competições & Torneios</h4>
+                    <p>Dicas para montar equipes e treinar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section alt">
+        <div class="container grid-2">
+            <div>
+                <h2>Fale com a gente</h2>
+                <p>Tem dúvidas? Quer uma demonstração? Envie uma mensagem.</p>
+                <ul class="ticks">
+                    <li>Atendimento por WhatsApp e chat</li>
+                    <li>FAQ por público (alunos, professores e responsáveis)</li>
+                    <li>Email institucional: contato@engenheiros.edu</li>
+                </ul>
+            </div>
+            <form class="card form">
+                <div class="form-group">
+                    <input type="text" placeholder="Seu nome" required />
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Seu e-mail" required />
+                </div>
+                <div class="form-group">
+                    <textarea rows="4" placeholder="Mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <div class="brand">EngenheirosDoAmnhã</div>
+                <p>© 2025 • Todos os direitos reservados</p>
+            </div>
+            <div class="links">
+                <a href="#privacidade">Privacidade</a>
+                <a href="#termos">Termos</a>
+                <a href="#suporte">Suporte</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Login/Cadastro -->
+    <div id="loginModal" class="modal" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="close" id="btnFecharLogin" aria-label="Fechar">&times;</button>
+            <h3 id="modalTitle">Acesse sua conta</h3>
+            <form id="loginForm" class="auth-form">
+                <input type="email" id="email" placeholder="Email" required />
+                <input type="password" id="senha" placeholder="Senha" required />
+                <label for="tipo" class="label">Tipo de usuário</label>
+                <select id="tipo">
+                    <option value="Aluno">Aluno</option>
+                    <option value="Professor">Professor</option>
+                    <option value="Pai">Pai</option>
+                </select>
+
+                <div class="auth-extra">
+                    <label class="custom-checkbox">
+                        <input type="checkbox" id="new-user" />
+                        <span class="checkmark"></span>
+                        Sou novo aqui
+                    </label>
+                    <a href="#" class="link-register">Cadastrar</a>
+                </div>
+
+                <button type="submit" class="btn btn-accent">Entrar</button>
+                <p class="muted hint">Ao continuar você concorda com nossos termos e política.</p>
+            </form>
+        </div>
+    </div>
+
+    <canvas id="stars"></canvas>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
